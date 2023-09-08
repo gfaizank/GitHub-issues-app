@@ -1,0 +1,79 @@
+/* Global styles for your entire app */
+
+/* Mobile-first approach: Styles for small screens */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Styles for medium screens and larger */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px; /* Adjust to your preferred max-width */
+    margin: 0 auto; /* Center the content */
+  }
+}
+
+/* Styles for larger screens */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px; /* Adjust to your preferred max-width */
+  }
+}
+
+/* app.css */
+
+/* Global styles for your entire app */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Styles for IssuesList component */
+.issues-list {
+  background-color: #fff; /* White background */
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for Metrics component */
+.metrics {
+  background-color: #e6f7ff; /* Light blue background */
+  padding: 20px;
+  border: 1px solid #3399ff;
+}
+
+/* Styles for Modal component */
+.modal {
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff; /* White background for modal content */
+  padding: 20px;
+  border: 1px solid #ccc;
+}
